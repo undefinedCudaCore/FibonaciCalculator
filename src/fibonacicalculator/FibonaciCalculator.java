@@ -25,10 +25,11 @@ public class FibonaciCalculator {
         }
         return 0;
     }
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         for (int i = 0; i < 14; i++) {  
         System.out.println(fc(i));
         }
         System.out.println(fc2(1, 1, 11));
     }
+
 }
